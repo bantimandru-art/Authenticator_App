@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Four rounded corner brackets drawn around the scan area. Used as a background so it
+     is drawn at the view's real size and stays sharp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M2,22V12A10,10 0 0,1 12,2H22 M78,2H88A10,10 0 0,1 98,12V22 M98,78V88A10,10 0 0,1 88,98H78 M22,98H12A10,10 0 0,1 2,88V78"
+        android:strokeWidth="2.4"
+        android:strokeColor="@color/white"
+        android:strokeLineCap="round" />
+</vector>

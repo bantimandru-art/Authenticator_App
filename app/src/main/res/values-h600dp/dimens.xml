@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_top_padding">16dp</dimen>
+    <dimen name="headline_top_margin">28dp</dimen>
+    <dimen name="search_top_margin">20dp</dimen>
+</resources>

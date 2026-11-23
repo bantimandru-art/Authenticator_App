@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_margin">32dp</dimen>
+    <dimen name="card_gap_half">8dp</dimen>
+    <dimen name="list_padding">24dp</dimen>
+    <dimen name="scanner_frame_size">280dp</dimen>
+</resources>

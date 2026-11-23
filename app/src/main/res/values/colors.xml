@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand: deep emerald on cool neutrals -->
+    <color name="brand">#FF0B6B5D</color>
+    <color name="brand_deep">#FF064A40</color>
+
+    <color name="primary">#FF0B6B5D</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary_container">#FFA6F2DE</color>
+    <color name="on_primary_container">#FF00201B</color>
+    <color name="secondary">#FF4A635D</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="secondary_container">#FFCCE8E0</color>
+    <color name="on_secondary_container">#FF06201B</color>
+    <color name="tertiary">#FF436278</color>
+    <color name="on_tertiary">#FFFFFFFF</color>
+    <color name="tertiary_container">#FFC9E6FF</color>
+    <color name="on_tertiary_container">#FF001E2F</color>
+    <color name="error">#FFBA1A1A</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="error_container">#FFFFDAD6</color>
+    <color name="on_error_container">#FF410002</color>
+
+    <color name="surface">#FFF5F8F7</color>
+    <color name="on_surface">#FF141A19</color>
+    <color name="on_surface_variant">#FF55605D</color>
+    <color name="outline">#FF6F7976</color>
+    <color name="outline_variant">#FFD5DEDA</color>
+    <color name="surface_container_lowest">#FFFFFFFF</color>
+    <color name="surface_container_low">#FFEFF4F2</color>
+    <color name="surface_container">#FFE9EFEC</color>
+    <color name="surface_container_high">#FFE3E9E6</color>
+    <color name="surface_container_highest">#FFDDE4E1</color>
+    <color name="inverse_surface">#FF2B3230</color>
+    <color name="inverse_on_surface">#FFECF2EF</color>
+    <color name="inverse_primary">#FF6FD9C1</color>
+
+    <!-- Account avatars: text colour, the tile behind it is the same colour at low alpha -->
+    <color name="avatar_teal">#FF0F7F70</color>
+    <color name="avatar_indigo">#FF4A55C8</color>
+    <color name="avatar_amber">#FFA86200</color>
+    <color name="avatar_rose">#FFC03A6E</color>
+    <color name="avatar_violet">#FF7D4BBF</color>
+    <color name="avatar_sky">#FF1A76AE</color>
+    <color name="avatar_green">#FF3A7D36</color>
+    <color name="avatar_coral">#FFC04A2F</color>
+
+    <array name="avatar_colors">
+        <item>@color/avatar_teal</item>
+        <item>@color/avatar_indigo</item>
+        <item>@color/avatar_amber</item>
+        <item>@color/avatar_rose</item>
+        <item>@color/avatar_violet</item>
+        <item>@color/avatar_sky</item>
+        <item>@color/avatar_green</item>
+        <item>@color/avatar_coral</item>
+    </array>
+
+    <color name="scanner_scrim">#99000000</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Material 3 type scale re-set in Manrope. Each style pins a concrete font file
+        so weights render the same on every API level.
+    -->
+    <style name="TextAppearance.MyAuth.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:fontFamily">@font/manrope_medium</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:fontFamily">@font/manrope_medium</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:fontFamily">@font/manrope_medium</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <!-- The one-time code itself: monospaced so digits don't shift as they change -->
+    <style name="TextAppearance.MyAuth.Code" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/jetbrains_mono_semibold</item>
+        <item name="android:fontFamily">@font/jetbrains_mono_semibold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.Code.Large">
+        <item name="android:textSize">44sp</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+
+    <style name="TextAppearance.MyAuth.Overline" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

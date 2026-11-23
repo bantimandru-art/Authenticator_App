@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Used on Android 11 and lower. The accounts file is encrypted with a Keystore key
+   that never leaves the device, so a backed up copy could never be decrypted.
+-->
+<full-backup-content>
+    <exclude domain="file" path="accounts.enc" />
+</full-backup-content>

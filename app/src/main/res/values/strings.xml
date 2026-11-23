@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">My Auth</string>
+
+    <string name="headline_accounts">Your accounts</string>
+    <plurals name="account_count">
+        <item quantity="one">%d account</item>
+        <item quantity="other">%d accounts</item>
+    </plurals>
+    <string name="accounts_summary">%1$s · Encrypted on this device</string>
+    <string name="search_hint">Search accounts</string>
+    <string name="no_results">No accounts match “%1$s”</string>
+
+    <string name="empty_title">Protect your first account</string>
+    <string name="empty_message">Turn on two-step verification in any site or app, choose “authenticator app”, then scan the QR code it shows you.</string>
+
+    <string name="add_account">Add account</string>
+    <string name="add_account_title">Add an account</string>
+    <string name="add_account_message">Most services show a QR code when you set up two-step verification. If you can\'t scan it, use the setup key instead.</string>
+    <string name="scan_qr_code">Scan QR code</string>
+    <string name="scan_qr_code_description">Use your camera to scan the code on screen</string>
+    <string name="enter_key">Enter a setup key</string>
+    <string name="enter_key_description">Type the key shown next to the QR code</string>
+
+    <string name="scan_prompt">Line up the QR code inside the frame. It will be added automatically.</string>
+    <string name="enter_key_instead">Enter key instead</string>
+    <string name="close">Close</string>
+    <string name="turn_on_flashlight">Turn on flashlight</string>
+    <string name="turn_off_flashlight">Turn off flashlight</string>
+
+    <string name="camera_permission_title">Allow camera access</string>
+    <string name="camera_permission_rationale">My Auth uses the camera only to read QR codes. Nothing is recorded or sent anywhere.</string>
+    <string name="camera_permission_denied">Camera access is turned off for My Auth. You can turn it on in Settings, or add the account with its setup key.</string>
+    <string name="no_camera_title">No camera found</string>
+    <string name="no_camera_message">This device doesn\'t have a camera. You can still add accounts using their setup key.</string>
+    <string name="continue_label">Continue</string>
+    <string name="open_settings">Open settings</string>
+    <string name="not_now">Not now</string>
+
+    <string name="invalid_qr_title">Couldn\'t add account</string>
+    <string name="try_again">Try again</string>
+    <string name="account_added">%1$s added</string>
+    <string name="account_already_added">This account has already been added</string>
+
+    <string name="manual_entry_message">Enter the details shown by the service you\'re setting up.</string>
+    <string name="hint_issuer">Service (optional)</string>
+    <string name="hint_account_name">Account name</string>
+    <string name="hint_secret_key">Setup key</string>
+    <string name="secret_helper">Letters A–Z and digits 2–7. Spaces are fine.</string>
+    <string name="add">Add</string>
+    <string name="error_account_name_required">Enter an account name</string>
+    <string name="error_invalid_secret">This doesn\'t look like a valid setup key</string>
+
+    <string name="back">Back</string>
+    <string name="otp_label">One-time password code</string>
+    <plurals name="code_refreshes_in">
+        <item quantity="one">A new code will appear in %d second</item>
+        <item quantity="other">A new code will appear in %d seconds</item>
+    </plurals>
+    <string name="code_hint">Use this one-time password to finish signing in to %1$s. Never share it with anyone.</string>
+    <string name="copy_code">Copy code</string>
+    <string name="code_copied">Code copied</string>
+    <string name="clip_label">Verification code</string>
+    <string name="rename_account">Rename</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="remove_account_title">Remove %1$s?</string>
+    <string name="remove_account_message">You\'ll stop getting codes for this account here. Make sure you have another way to sign in first, or turn off two-step verification for it.</string>
+    <string name="account_removed">%1$s removed</string>
+</resources>

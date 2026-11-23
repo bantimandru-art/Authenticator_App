@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Outer margin of the screen content. Grows on wider windows (see values-w600dp etc). -->
+    <dimen name="screen_margin">20dp</dimen>
+    <!-- Half the gap between cards; every card carries it on all sides -->
+    <dimen name="card_gap_half">6dp</dimen>
+    <!-- screen_margin minus card_gap_half, so cards line up with the header -->
+    <dimen name="list_padding">14dp</dimen>
+    <!-- Room left under the last card so the add button never covers it -->
+    <dimen name="list_bottom_space">96dp</dimen>
+
+    <!-- Header spacing. Kept tight by default for short windows (landscape phones),
+         opened up in values-h600dp. -->
+    <dimen name="header_top_padding">8dp</dimen>
+    <dimen name="headline_top_margin">14dp</dimen>
+    <dimen name="search_top_margin">12dp</dimen>
+
+    <!-- Detail screen content never stretches wider than this on tablets -->
+    <dimen name="detail_max_width">600dp</dimen>
+
+    <dimen name="scanner_frame_size">248dp</dimen>
+</resources>
